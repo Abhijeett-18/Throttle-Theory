@@ -50,6 +50,12 @@
 - **Nodemailer** - Email notifications
 - **Cloudinary** - Image hosting and management
 
+### Images
+<img width="1920" height="1080" alt="Screenshot 2025-12-04 161200" src="https://github.com/user-attachments/assets/01f7d217-2ee5-4a76-baee-8e63365fbc56" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-04 161417" src="https://github.com/user-attachments/assets/71f3029a-36d5-4092-be8c-a846352c6457" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-04 161622" src="https://github.com/user-attachments/assets/57d6defd-c37c-42d0-968e-00e791e617b5" />
+
+
 ## 📁 Project Structure
 
 ```
