@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="relative w-screen h-screen bg-black">
+    <div className="relative w-full h-screen bg-black overflow-hidden">
       <img
         src="/yess.jpeg"
-        className="opacity-50 w-screen h-screen object-cover absolute top-0 left-0 z-0"
+        className="opacity-50 w-full h-full object-cover absolute top-0 left-0 z-0"
         alt=""
       />
       <div className="relative z-10 h-full">

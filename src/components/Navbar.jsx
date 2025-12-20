@@ -39,8 +39,8 @@ export default function Navbar({ hideCart = false }) {
     };
   }, []);
   return (
-    <nav className="px-6 py-6 text-white flex justify-between items-center sticky top-0 z-50 bg-transparent">
-      <div className="flex items-center space-x-6">
+    <nav className="px-3 sm:px-4 md:px-6 py-4 md:py-6 text-white flex justify-between items-center sticky top-0 z-50 bg-transparent">
+      <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-6">
         {/* FIX: Added py-4 and -my-4 here. 
           This extends the hoverable area of the group, bridging the 
           'mt-4' gap so the menu stays open when you move your mouse to it. 
@@ -55,7 +55,7 @@ export default function Navbar({ hideCart = false }) {
             onClick={() => setOpen((o) => !o)}
             aria-expanded={open}
             aria-controls="nav-menu"
-            className="hover:opacity-80 px-6"
+            className="hover:opacity-80 px-2 sm:px-4 md:px-6"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -95,8 +95,8 @@ export default function Navbar({ hideCart = false }) {
         </div>
         
       </div>
-      <Link to="/categories" className="text-4xl font-bold font-clash hover:opacity-80">Throttle Theory</Link>
-        <div className="flex items-center space-x-6">
+      <Link to="/categories" className="text-2xl sm:text-3xl md:text-4xl font-bold font-clash hover:opacity-80">Throttle Theory</Link>
+        <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-6">
         {isAuthenticated ? (
           <Link to="/profile" className="hover:opacity-80" aria-label="Profile">
             <svg
@@ -146,7 +146,7 @@ export default function Navbar({ hideCart = false }) {
           )}
         </Link>
         {!hideCart && (
-          <Link to="/cart" className="hover:opacity-80 pr-6 relative">
+          <Link to="/cart" className="hover:opacity-80 pr-2 sm:pr-4 md:pr-6 relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"

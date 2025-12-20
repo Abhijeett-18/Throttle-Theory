@@ -29,9 +29,9 @@ export default function Categories() {
   return (
     <div className="min-h-screen bg-[#f5f5f5]">
       <Navbar2 />
-      <div className="flex gap-6 md:gap-8 px-4 sm:px-6 md:px-8 py-8 md:py-10 overflow-x-auto scrollbar-hide">
-        <div className="flex flex-col items-start min-w-[200px] sm:min-w-[250px]">
-          <div className="rounded-2xl overflow-hidden mb-4 w-[200px] sm:w-[250px] h-[280px] sm:h-[360px] bg-white">
+      <div className="flex gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6 md:px-8 py-8 md:py-10 overflow-x-auto scrollbar-hide snap-x snap-mandatory">
+        <div className="flex flex-col items-start flex-shrink-0 w-[70vw] sm:w-[250px] snap-center">
+          <div className="rounded-2xl overflow-hidden mb-4 w-full h-[280px] sm:h-[360px] bg-white">
             <Link
               to="/categories/tshirts" 
             >
@@ -56,8 +56,8 @@ export default function Categories() {
           </div>
         </div>
 
-        <div className="flex flex-col items-start min-w-[250px]">
-          <div className="rounded-2xl overflow-hidden mb-4 w-[250px] h-[360px] bg-white">
+        <div className="flex flex-col items-start flex-shrink-0 w-[70vw] sm:w-[250px] snap-center">
+          <div className="rounded-2xl overflow-hidden mb-4 w-full h-[280px] sm:h-[360px] bg-white">
             <Link
               to="/categories/caps"
             >
@@ -82,8 +82,8 @@ export default function Categories() {
           </div>
         </div>
 
-        <div className="flex flex-col items-start min-w-[250px]">
-          <div className="rounded-2xl overflow-hidden mb-4 w-[250px] h-[360px] bg-white">
+        <div className="flex flex-col items-start flex-shrink-0 w-[70vw] sm:w-[250px] snap-center">
+          <div className="rounded-2xl overflow-hidden mb-4 w-full h-[280px] sm:h-[360px] bg-white">
             <Link
               to="/categories/jackets"
             >
@@ -108,8 +108,8 @@ export default function Categories() {
           </div>
         </div>
         
-        <div className="flex flex-col items-start min-w-[250px]">
-          <div className="rounded-2xl overflow-hidden mb-4 w-[250px] h-[360px] bg-white">
+        <div className="flex flex-col items-start flex-shrink-0 w-[70vw] sm:w-[250px] snap-center">
+          <div className="rounded-2xl overflow-hidden mb-4 w-full h-[280px] sm:h-[360px] bg-white">
             <Link
               to="/categories/bottoms"
             >
@@ -133,8 +133,8 @@ export default function Categories() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-start min-w-[250px]">
-          <div className="rounded-2xl overflow-hidden mb-4 w-[250px] h-[360px] bg-white">
+        <div className="flex flex-col items-start flex-shrink-0 w-[70vw] sm:w-[250px] snap-center">
+          <div className="rounded-2xl overflow-hidden mb-4 w-full h-[280px] sm:h-[360px] bg-white">
             <Link
               to="/categories/accessories"
             >
