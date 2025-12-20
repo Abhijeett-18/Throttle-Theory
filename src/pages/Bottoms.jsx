@@ -36,13 +36,13 @@ export default function Bottoms() {
 
       {/* Banner */}
       <div className="grid grid-cols-1 h-[300px]">
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full flex items-end justify-center">
           <img
             src="/hero.jpg"
             alt="Banner Right"
-            className="w-full h-[300px] object-cover opacity-80"
+            className="absolute inset-0 w-full h-[300px] object-cover opacity-80"
           />
-          <h1 className="absolute bottom-6 left-6 text-white text-2xl font-bold font-clash bg-black rounded-2xl px-6 py-2">
+          <h1 className="relative mb-6 text-white text-4xl font-bold font-clash bg-black rounded-2xl px-6 py-2">
             Bottoms
           </h1>
         </div>
